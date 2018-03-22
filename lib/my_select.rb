@@ -1,11 +1,11 @@
 def my_select(collection)
  # your code here!
  i = 0
- temp = []
+ temp = nil
  temp1 = []
  while(i < collection.size) do
    temp = yield(collection[i])
-   temp1 << temp
+   temp1 << collection[i] if temp ==true
    i+=1
  end
 
