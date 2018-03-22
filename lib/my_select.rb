@@ -8,6 +8,5 @@ def my_select(collection)
    temp1 << collection[i] if temp ==true
    i+=1
  end
-
-
+ temp1
 end
